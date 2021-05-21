@@ -1,0 +1,138 @@
+23:40:13 (48888) INFO ConfigReader Using stryker.conf.json
+23:40:13 (48888) DEBUG BroadcastReporter Broadcasting to reporters ["html","clear-text","progress"]
+23:40:13 (48888) DEBUG ConfigReader Loading config /Users/amehmeto/Development/fizzbuzz-vi-demo/stryker.conf.json
+23:40:13 (48888) DEBUG ConfigReader Loaded config: {
+  "$schema": "./node_modules/@stryker-mutator/core/schema/stryker-schema.json",
+  "mutator": "typescript",
+  "packageManager": "npm",
+  "reporters": [
+    "html",
+    "clear-text",
+    "progress"
+  ],
+  "testRunner": "jest",
+  "transpilers": [
+    "typescript"
+  ],
+  "coverageAnalysis": "off",
+  "tsconfigFile": "tsconfig.json",
+  "mutate": [
+    "src/*.ts"
+  ],
+  "allowConsoleColors": true,
+  "commandRunner": {
+    "command": "npm test"
+  },
+  "clearTextReporter": {
+    "allowColor": true,
+    "logTests": true,
+    "maxTestsToLog": 3
+  },
+  "dashboard": {
+    "baseUrl": "https://dashboard.stryker-mutator.io/api/reports",
+    "reportType": "full"
+  },
+  "eventReporter": {
+    "baseDir": "reports/mutation/events"
+  },
+  "fileLogLevel": "trace",
+  "logLevel": "debug",
+  "maxConcurrentTestRunners": 9007199254740991,
+  "plugins": [
+    "@stryker-mutator/*"
+  ],
+  "symlinkNodeModules": true,
+  "tempDirName": ".stryker-tmp",
+  "thresholds": {
+    "high": 80,
+    "low": 60,
+    "break": null
+  },
+  "timeoutFactor": 1.5,
+  "timeoutMS": 5000,
+  "warnings": true,
+  "configFile": "/Users/amehmeto/Development/fizzbuzz-vi-demo/stryker.conf.json"
+}
+23:40:13 (48888) DEBUG PluginLoader Loading @stryker-mutator/* from /Users/amehmeto/Development/fizzbuzz-vi-demo/node_modules/@stryker-mutator
+23:40:13 (48888) DEBUG PluginLoader Loading plugin "/Users/amehmeto/Development/fizzbuzz-vi-demo/node_modules/@stryker-mutator/jest-runner" (matched with expression @stryker-mutator/*)
+23:40:13 (48888) DEBUG PluginLoader Loading plugin "/Users/amehmeto/Development/fizzbuzz-vi-demo/node_modules/@stryker-mutator/typescript" (matched with expression @stryker-mutator/*)
+23:40:13 (48888) DEBUG PluginLoader Loading plugins /Users/amehmeto/Development/fizzbuzz-vi-demo/node_modules/@stryker-mutator/jest-runner
+23:40:13 (48888) DEBUG PluginLoader Loading plugins /Users/amehmeto/Development/fizzbuzz-vi-demo/node_modules/@stryker-mutator/typescript
+23:40:13 (48888) DEBUG PluginLoader Loading plugins /Users/amehmeto/Development/fizzbuzz-vi-demo/node_modules/@stryker-mutator/core/src/reporters/index.js
+23:40:13 (48888) DEBUG buildSchemaWithPluginContributions Contributing 2 schemas from plugins to options validation.
+23:40:13 (48888) INFO TypescriptOptionsEditor Loading tsconfig file /Users/amehmeto/Development/fizzbuzz-vi-demo/tsconfig.json
+23:40:14 (48888) ERROR StrykerCli an error occurred [Error: ENFILE: file table overflow, open '/Users/amehmeto/Development/fizzbuzz-vi-demo/node_modules/inquirer/node_modules/rxjs/_esm2015/internal/operators/windowCount.js'] {
+  errno: -23,
+  code: 'ENFILE',
+  syscall: 'open',
+  path: '/Users/amehmeto/Development/fizzbuzz-vi-demo/node_modules/inquirer/node_modules/rxjs/_esm2015/internal/operators/windowCount.js'
+}
+23:41:02 (48898) INFO ConfigReader Using stryker.conf.json
+23:41:02 (48898) DEBUG BroadcastReporter Broadcasting to reporters ["html","clear-text","progress"]
+23:41:02 (48898) DEBUG ConfigReader Loading config /Users/amehmeto/Development/fizzbuzz-vi-demo/stryker.conf.json
+23:41:02 (48898) DEBUG ConfigReader Loaded config: {
+  "$schema": "./node_modules/@stryker-mutator/core/schema/stryker-schema.json",
+  "mutator": "typescript",
+  "packageManager": "npm",
+  "reporters": [
+    "html",
+    "clear-text",
+    "progress"
+  ],
+  "testRunner": "jest",
+  "transpilers": [
+    "typescript"
+  ],
+  "coverageAnalysis": "off",
+  "tsconfigFile": "tsconfig.json",
+  "mutate": [
+    "src/**/*.ts"
+  ],
+  "allowConsoleColors": true,
+  "commandRunner": {
+    "command": "npm test"
+  },
+  "clearTextReporter": {
+    "allowColor": true,
+    "logTests": true,
+    "maxTestsToLog": 3
+  },
+  "dashboard": {
+    "baseUrl": "https://dashboard.stryker-mutator.io/api/reports",
+    "reportType": "full"
+  },
+  "eventReporter": {
+    "baseDir": "reports/mutation/events"
+  },
+  "fileLogLevel": "trace",
+  "logLevel": "debug",
+  "maxConcurrentTestRunners": 9007199254740991,
+  "plugins": [
+    "@stryker-mutator/*"
+  ],
+  "symlinkNodeModules": true,
+  "tempDirName": ".stryker-tmp",
+  "thresholds": {
+    "high": 80,
+    "low": 60,
+    "break": null
+  },
+  "timeoutFactor": 1.5,
+  "timeoutMS": 5000,
+  "warnings": true,
+  "configFile": "/Users/amehmeto/Development/fizzbuzz-vi-demo/stryker.conf.json"
+}
+23:41:02 (48898) DEBUG PluginLoader Loading @stryker-mutator/* from /Users/amehmeto/Development/fizzbuzz-vi-demo/node_modules/@stryker-mutator
+23:41:02 (48898) DEBUG PluginLoader Loading plugin "/Users/amehmeto/Development/fizzbuzz-vi-demo/node_modules/@stryker-mutator/jest-runner" (matched with expression @stryker-mutator/*)
+23:41:02 (48898) DEBUG PluginLoader Loading plugin "/Users/amehmeto/Development/fizzbuzz-vi-demo/node_modules/@stryker-mutator/typescript" (matched with expression @stryker-mutator/*)
+23:41:02 (48898) DEBUG PluginLoader Loading plugins /Users/amehmeto/Development/fizzbuzz-vi-demo/node_modules/@stryker-mutator/jest-runner
+23:41:02 (48898) DEBUG PluginLoader Loading plugins /Users/amehmeto/Development/fizzbuzz-vi-demo/node_modules/@stryker-mutator/typescript
+23:41:02 (48898) DEBUG PluginLoader Loading plugins /Users/amehmeto/Development/fizzbuzz-vi-demo/node_modules/@stryker-mutator/core/src/reporters/index.js
+23:41:02 (48898) DEBUG buildSchemaWithPluginContributions Contributing 2 schemas from plugins to options validation.
+23:41:02 (48898) INFO TypescriptOptionsEditor Loading tsconfig file /Users/amehmeto/Development/fizzbuzz-vi-demo/tsconfig.json
+23:41:04 (48898) ERROR StrykerCli an error occurred [Error: ENFILE: file table overflow, open '/Users/amehmeto/Development/fizzbuzz-vi-demo/node_modules/inquirer/node_modules/rxjs/_esm2015/internal/scheduled/scheduleObservable.js'] {
+  errno: -23,
+  code: 'ENFILE',
+  syscall: 'open',
+  path: '/Users/amehmeto/Development/fizzbuzz-vi-demo/node_modules/inquirer/node_modules/rxjs/_esm2015/internal/scheduled/scheduleObservable.js'
+}
